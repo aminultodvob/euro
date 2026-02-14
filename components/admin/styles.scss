@@ -1,0 +1,54 @@
+.tiptap-shell {
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--card);
+  overflow: hidden;
+}
+
+.tiptap-menubar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+  background: color-mix(in oklab, var(--card), var(--muted) 35%);
+}
+
+.tiptap-shell .tiptap {
+  height: 18rem;
+  padding: 0.875rem;
+  outline: none;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  overflow-y: auto;
+}
+
+.tiptap-shell .tiptap p {
+  margin: 0.5rem 0;
+}
+
+.tiptap-shell .tiptap ul,
+.tiptap-shell .tiptap ol {
+  padding-left: 1.25rem;
+}
+
+.tiptap-shell .tiptap blockquote {
+  border-left: 3px solid var(--border);
+  margin: 0.75rem 0;
+  padding-left: 0.75rem;
+  color: var(--muted-foreground);
+}
+
+.tiptap-shell .tiptap pre {
+  background: #111827;
+  color: #f9fafb;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  overflow-x: auto;
+}
+
+.tiptap-shell .tiptap code {
+  background: color-mix(in oklab, var(--muted), white 40%);
+  border-radius: 0.25rem;
+  padding: 0.1rem 0.3rem;
+}
